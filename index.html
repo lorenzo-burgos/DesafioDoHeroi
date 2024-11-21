@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desafio do herói</title>
+</head>
+<body>
+    <header>
+        <h1>Esta lançado o desafio do herói</h1>
+        <h3>Insira no quadro nome o nome do héroi e no quadro XP a  </h2>
+    </header>
+    <main>
+        <div class="questionario">
+            <form>
+                <label for="nome">Nome do herói:</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="xp">XP do herói:</label>
+                <input type="number" name="xp" id="xp" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div id="classifcatoria">
+            <h1>Aqui estão os 5 heróis mais poderosos até agora</h1>
+            <div class="podio">
+                <!-- Aqui será inserido os heróis -->
+            </div>
+        </div>
+        <div id="atual">
+            <h1>Heroi Atual</h1>
+            <!-- Aqui será inserido o herói atual -->
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="">Lorenzo Machado Burgos</a></p>
+    </footer>
+    <script src="logic.js"></script>
+</body>
+</html>
